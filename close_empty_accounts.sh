@@ -2,11 +2,13 @@
 
 <<SETUP_INSTRUCTIONS
 Script Requirements and Setup:
-1. Export your private key from your Phantom/other wallet and save as a JSON file (e.g., my-keypair.json).
-2. Install Solana CLI:
+1. Export your private key from your Phantom/other wallet and save as a JSON file (e.g., my-keypair.json)
+2. Install Solana CLI
+   instructions: https://docs.anza.xyz/cli/install
 3. Set up Solana CLI with:
    solana config set --keypair /path/to/your-keypair.json
-4. Install SPL Token CLI:
+4. Install SPL Token CLI
+   instructions: https://spl.solana.com/token
 5. Check balance and accounts to verify correct wallet connected with:
    solana balance && spl-token accounts
 SETUP_INSTRUCTIONS
